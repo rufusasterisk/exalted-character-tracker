@@ -1,0 +1,133 @@
+html {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  height: 15%;
+  background-color: #999;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  height: 70vh;
+  /*min-height: 50vh;*/
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+footer {
+  /*text-align: center;*/
+  height: 15%;
+  background-color: #999;
+  position: relative;
+}
+
+h2 {
+  margin: 0;
+  display: inline;
+}
+
+.btn {
+  height: 20%;
+  width: 90%;
+  margin: auto;
+  display: block;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.attribute-btn {
+  background-color: red;
+}
+
+.ability-btn {
+  background-color: blue;
+}
+
+.specialty-btn {
+  background-color: yellow;
+}
+
+.bonus-btn {
+  background-color: green;
+}
+
+.roll-btn {
+  width: 10%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: teal;
+  border: 0;
+}
+
+.roll-container {
+  width: 90%;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.attr-selector-btn {
+  height: 30%;
+  width: 30%;
+}
+
+.str {
+  background-color: red;
+}
+
+.dex {
+  background-color: green;
+}
+
+.sta {
+  background-color: yellow;
+}
+
+.cha {
+  background-color: purple;
+}
+
+.man {
+  background-color: orange;
+}
+
+.app {
+  background-color: pink;
+}
+
+.per {
+  background-color: grey;
+}
+
+.int {
+    background-color: gold;
+}
+
+.wit {
+  background-color: teal;
+}
+
+td {
+  width: 25%
+}
+
+/*.dice-number {
+  width: 50px;
+}*/

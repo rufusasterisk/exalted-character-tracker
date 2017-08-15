@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exalted - Roller</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1><span class="character-name">[Character Name]</span>'s Action Roller</h1>
+    </header>
+    <main id="main">
+      <!-- <button class="str attr-selector-btn" type="button" name="button">Strength</button>
+      <button class="dex attr-selector-btn" type="button" name="button">Dexterity</button>
+      <button class="sta attr-selector-btn" type="button" name="button">Stamina</button>
+      <button class="cha attr-selector-btn" type="button" name="button">Charisma</button>
+      <button class="man attr-selector-btn" type="button" name="button">Manipulation</button>
+      <button class="app attr-selector-btn" type="button" name="button">Appearance</button>
+      <button class="per attr-selector-btn" type="button" name="button">Perception</button>
+      <button class="int attr-selector-btn" type="button" name="button">Intelligence</button>
+      <button class="wit attr-selector-btn" type="button" name="button">Wits</button> -->
+
+      <button class="btn attribute-btn" type="button" name="button">Attributes</button>
+      <button class="btn ability-btn" type="button" name="button">Abilities</button>
+      <button class="btn specialty-btn" type="button" name="button">Specialties</button>
+      <button class="btn bonus-btn" type="button" name="button">Bonus</button>
+    </main>
+    <footer>
+      <h2>Current Roll:</h2>
+      <div class="roll-container">
+        <table>
+          <tr>
+            <td id="attribute">Attribute</td>
+            <td id="attribute-dice" class="dice-number">#</td>
+            <td id="ability">Ability</td>
+            <td id="ability-dice" class="dice-number">#</td>
+          </tr>
+          <tr>
+            <td id="specialty">Specialty</td>
+            <td id="specialty-dice" class="dice-number">#</td>
+            <td id="bonus">Bonus</td>
+            <td id="bonus-dice" class="dice-number">#</td>
+          </tr>
+          <tr>
+            <td>Total Dice:</td>
+            <td id="total-dice-num">#</td>
+          </tr>
+        </table>
+      </div>
+      <button class="roll-btn" type="button" name="button">Roll!</button>
+    </footer>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>
